@@ -1,0 +1,9 @@
+<h1>
+  {{title}}
+</h1>
+
+<ul *ngFor="let n of reversedArray">
+  <li>{{n}}</li>
+</ul>
+
+<alert type="success">Last Updated: {{ myDate | amTimeAgo }}</alert>
